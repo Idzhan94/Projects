@@ -122,6 +122,13 @@ def play(game, x_player, o_player, print_game=True):
     if print_game:
         print("It\'s a tie!")
 
+x_player = HumanPlayer('X')
+o_player = RandomComputerPlayer('O')
+t = TicTacToe()
+result = play(t, x_player, o_player, print_game=True)
+        
+        
+"""
 if __name__ == '__main__':
     x_wins = 0
     o_wins = 0
@@ -139,7 +146,7 @@ if __name__ == '__main__':
             ties += 1
 
     print(f'After 1000 iterations, we see {x_wins} X wins, {o_wins} O wins, and {ties} ties')
-
+"""
 
 
 
