@@ -44,6 +44,7 @@ class HumanPlayer(Player):
 
         return val
 
+"""
 class GeniusComputerPLayer(Player):
     def __init__(self, letter):
         super().__init__(letter)
@@ -98,7 +99,7 @@ class GeniusComputerPLayer(Player):
                     best = sim_score # replace bust
 
         return best
-
+"""
 
 
 
